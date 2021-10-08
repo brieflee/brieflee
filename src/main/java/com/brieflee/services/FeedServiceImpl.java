@@ -110,7 +110,10 @@ public class FeedServiceImpl implements FeedService {
                             copyright = getCharacterData(event, eventReader);
                             break;
                     }
-                } else if (event.isEndElement()) {
+                } else
+                    // Algo which defines which feedmessage to be picked.
+
+                    if (event.isEndElement()) {
                     if (event.asEndElement().getName().getLocalPart().equals(ITEM)) {
                         FeedMessage message = new FeedMessage();
                         message.setAuthor(author);

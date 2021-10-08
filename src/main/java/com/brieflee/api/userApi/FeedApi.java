@@ -29,5 +29,5 @@ public class FeedApi {
         Feed feed = feedService.generateFeedFromUrl(bFeedRequest.getFeedUrl());
         return new ResponseEntity<>(feed, HttpStatus.OK);
     }
-
+    
 }
