@@ -1,16 +1,31 @@
 com/brieflee/dto/BFeedRequest.java
  com.brieflee.dto.BFeedRequest
-com/brieflee/launcher/BriefleeLauncher.java
- com.brieflee.launcher.BriefleeLauncher
 com/brieflee/services/FeedService.java
  com.brieflee.services.FeedService
-com/brieflee/api/userApi/FeedApi.java
- com.brieflee.api.userApi.FeedApi
-com/brieflee/beans/Feed.java
- com.brieflee.beans.Feed
+com/brieflee/dto/BSampleResponse.java
+ com.brieflee.dto.BSampleResponse
+ com.brieflee.dto.BSampleResponse$BSampleResponseBuilder
 com/brieflee/beans/FeedMessage.java
  com.brieflee.beans.FeedMessage
 com/brieflee/launcher/BriefleeConfig.java
  com.brieflee.launcher.BriefleeConfig
+com/brieflee/beans/BTag.java
+ com.brieflee.beans.BTag
+com/brieflee/services/SampleFeedServiceForIntegration.java
+ com.brieflee.services.SampleFeedServiceForIntegration
+com/brieflee/launcher/BriefleeLauncher.java
+ com.brieflee.launcher.BriefleeLauncher
+com/brieflee/services/SampleFeedServiceForIntegrationImpl.java
+ com.brieflee.services.SampleFeedServiceForIntegrationImpl
+com/brieflee/api/userApi/FeedApi.java
+ com.brieflee.api.userApi.FeedApi
+com/brieflee/dto/BSampleFeed.java
+ com.brieflee.dto.BSampleFeed
+com/brieflee/beans/Feed.java
+ com.brieflee.beans.Feed
+com/brieflee/beans/Author.java
+ com.brieflee.beans.Author
 com/brieflee/services/FeedServiceImpl.java
  com.brieflee.services.FeedServiceImpl
+com/brieflee/dto/BSampleRequest.java
+ com.brieflee.dto.BSampleRequest
